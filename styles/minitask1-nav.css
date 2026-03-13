@@ -8,7 +8,7 @@
     background-color: darkgrey;
     /* flex-direction: column; */
     display: block;
-    width: 100%;
+    width: auto;
     padding: 10px;
 }
 
@@ -30,3 +30,4 @@
     text-align: center;
     /* flex-direction: row; */
   }
+}
