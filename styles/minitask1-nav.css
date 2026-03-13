@@ -15,6 +15,7 @@
 
 @media (min-width: 768px) {
   .nav-bar{
+    background-color: rgb(247, 100, 100);
     display: inline-block;
     width: 100%;
     padding: 10px;
@@ -25,6 +26,7 @@
 
 @media (min-width: 1024px) {
   .nav-bar { 
+    background-color: rgb(101, 102, 102);
     display: grid;
     grid-auto-flow: column; 
     justify-content: center;
@@ -34,6 +36,7 @@
 
 @media (min-width: 1280px) {
     .nav-bar {
+      background-color: antiquewhite;
     display: inline-block;
     width: 100%;
     padding: 10px;
