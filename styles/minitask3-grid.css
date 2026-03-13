@@ -2,10 +2,45 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #4d4e50;
+}
+.calculator-container {
+    max-width: 800px;
+    background-color: #202124;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 50px;
+   
+}
+
+button:hover {
+    background-color: darkgrey;
+}
+button {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 5px;
+}
+.layar-hasil {
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+    text-align: right;
+    padding: 40px;
+    background-color: darkgrey;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    
 }
 
 .keypad {
-    border: 1px solid blac;
+    justify-content: center;
+    margin-top: 10px;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -14,14 +49,14 @@
 .blok-rumus-kiri {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 4px;
     order: 2;
 }
 
 .blok-rumus-kanan {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 4px;
     order: 1;
 }
 
