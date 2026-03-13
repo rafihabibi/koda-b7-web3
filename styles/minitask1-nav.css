@@ -13,32 +13,20 @@
 }
 
 @media (min-width: 768px) {
-  .nav-bar{
+  .nav-bar li{
     background-color: rgb(247, 100, 100);
     display: inline-block;
-    width: 100%;
+    width: auto;
     padding: 10px;
     /* flex-direction: column; */
   }
 }
 
 @media (min-width: 1024px) {
-  .nav-bar, li { 
+  .nav-bar li { 
     background-color: rgb(101, 102, 102);
-    display: inline-block;
+    display: block;
     /* grid-auto-flow: column;  */
     text-align: center;
     /* flex-direction: row; */
   }
-}
-
-@media (min-width: 1280px) {
-    .nav-bar, li{
-      text-align: left;
-      background-color: antiquewhite;
-    display: block;
-    width: 100%;
-    padding: 2px;
-        /* flex-direction: column; */
-    }
-}
