@@ -7,10 +7,9 @@
 .nav-bar {
     background-color: darkgrey;
     /* flex-direction: column; */
-    display: inline-block;
+    display: block;
     width: 100%;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -19,28 +18,27 @@
     display: inline-block;
     width: 100%;
     padding: 10px;
-    box-sizing: border-box;
     /* flex-direction: column; */
   }
 }
 
 @media (min-width: 1024px) {
-  .nav-bar { 
+  .nav-bar, li { 
     background-color: rgb(101, 102, 102);
-    display: grid;
-    grid-auto-flow: column; 
-    justify-content: center;
+    display: inline-block;
+    /* grid-auto-flow: column;  */
+    text-align: center;
     /* flex-direction: row; */
   }
 }
 
 @media (min-width: 1280px) {
-    .nav-bar {
+    .nav-bar, li{
+      text-align: left;
       background-color: antiquewhite;
-    display: inline-block;
+    display: block;
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 2px;
         /* flex-direction: column; */
     }
 }
