@@ -5,6 +5,7 @@
 }
 
 .keypad {
+    border: 1px solid blac;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -29,9 +30,9 @@
         flex-direction: row;
     }
     .blok-rumus-kiri {
-        order: 2;
+        order: 1;
     }
     .blok-rumus-kanan {
-        order: 1;
+        order: 2;
     }
 }
